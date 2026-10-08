@@ -135,7 +135,8 @@ memoriesButton.addEventListener("click", function () {
 
         letterScreen.style.visibility = "hidden";
         // Запрещаем дальнейшую прокрутку
-        document.body.classList.remove("letter-scroll");
+        document.body.classList.add("letter-scroll");
+
 
         // Возвращаем страницу наверх
         window.scrollTo(0, 0);
