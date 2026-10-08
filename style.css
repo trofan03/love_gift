@@ -422,6 +422,7 @@ button:hover {
 /* ================================= */
 
 .memories-screen {
+    overflow-y: auto;
     background:
         radial-gradient(
             circle at center,
